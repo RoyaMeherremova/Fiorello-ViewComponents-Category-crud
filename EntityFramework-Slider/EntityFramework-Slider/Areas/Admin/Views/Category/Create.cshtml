@@ -1,0 +1,15 @@
+﻿@model Category   
+@*Category tipde qayidir actiona*@
+
+ <div class ="container my-5">
+  <form class="forms-sample" asp-action="Create">
+
+                    <input type="text" class="form-control" id="customFile" asp-for="Name" />  @*asp-for-Modelin icindekilerin adi ile eyni olamlidi(table-colum)*@  @*form submit olanda inputa yazdiqimiz Model-tipinde qayidir actiona*@
+                    <div class="buttons my-3">
+                     <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                    <a class="btn btn-light" asp-action="Index">Cancel</a>
+                    </div>
+
+                  </form>
+
+ </div>
